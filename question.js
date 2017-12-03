@@ -12,11 +12,6 @@ class Question {
     return this._All;
   }
 
-  static Find() {
-    return this.All().filter(function(ID)){
-      return user.ID = ID;
-    }
-  }
 }
 
 Question._All = [];
