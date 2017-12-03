@@ -11,8 +11,9 @@ class Question {
   static All() {
     return this._All;
   }
+
   static Find() {
-    return this.All().filter(function()){
+    return this.All().filter(function(ID)){
       return user.ID = ID;
     }
   }
